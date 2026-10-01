@@ -1,0 +1,20 @@
+[project]
+name = "saturno"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { email = "andresmonte175@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.34.2",
+    "scikit-learn>=1.9.1",
+    "streamlit>=1.64.0",
+]
+
+[project.scripts]
+saturno = "saturno:main"
+
+[tool.uv]
+package = false
